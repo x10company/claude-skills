@@ -1,0 +1,14 @@
+{
+  "name": "x10company",
+  "description": "Общие своды правил x10company: как не обмануться проверкой, ловушки оболочки и git, ведение работы",
+  "owner": {
+    "name": "x10company"
+  },
+  "plugins": [
+    {
+      "name": "x10-obshchie",
+      "source": "./plugins/x10-obshchie",
+      "description": "Три свода, применимых в любом нашем репозитории: проверки, оболочка и git, ход работы"
+    }
+  ]
+}
