@@ -1,0 +1,14 @@
+# Проверка этого репозитория общим проходом организации.
+name: guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  guard:
+    uses: x10company/ci-guard/.github/workflows/guard.yml@main
+    with:
+      # Кода на JS тут нет — только своды в markdown.
+      proveryat-js: false
