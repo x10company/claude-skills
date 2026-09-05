@@ -9,6 +9,11 @@
       "name": "x10-obshchie",
       "source": "./plugins/x10-obshchie",
       "description": "Четыре свода, применимых в любом нашем репозитории, и агент-тестировщик: проверки, оболочка и git, ход работы, guidelines"
+    },
+    {
+      "name": "x10-hozyaystvo",
+      "source": "./plugins/x10-hozyaystvo",
+      "description": "Устройство хозяйства x10: инфраструктура, границы рантаймов, ловушки внешних систем, read-only по Keitaro и Airtable"
     }
   ]
 }
